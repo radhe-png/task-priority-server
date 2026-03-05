@@ -1,0 +1,51 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Python build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# mypy / type check
+.mypy_cache/
+
+# Ruff / linters
+.ruff_cache/
+
+# FastAPI / uvicorn
+*.pid
+
+# Temporary files
+*.tmp
+*.temp
